@@ -71,7 +71,6 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-
-- Thanks to the contributors and the community for their support and feedback.
 - Special thanks to the developers of the NLP libraries used in this project.
+- And to the Edunet Foundation team.
 
