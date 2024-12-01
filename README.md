@@ -57,7 +57,7 @@ The application uses a JSON dataset (`symptoms.json`) that includes:
 
 1. Run the application:
    ```bash
-   python app.py
+   streamlit run app.py
    ```
 2. Follow the prompts to enter your symptoms.
 3. Receive feedback and guidance based on your input.
