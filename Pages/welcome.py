@@ -30,4 +30,4 @@ with col2:
         st.image("https://iili.io/20V9Kas.png", width=250)
     
     # Chat input
-st.link_button("Start Chatting","http://localhost:8501/symp",icon="💬",type="primary",help="At your own risk")
+st.link_button("Start Chatting","https://symptom-checker-v1.streamlit.app/symp",icon="💬",type="primary",help="At your own risk")
