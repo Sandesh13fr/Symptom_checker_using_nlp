@@ -1,0 +1,1531 @@
+[
+  {
+    "tag": "greeting",
+    "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon"],
+    "responses": ["Hello!", "Hi there!", "Greetings!", "Nice to meet you!"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Bye", "Goodbye", "See you later", "Catch you later"],
+    "responses": ["Goodbye!", "See you soon!", "Take care!"]
+  },
+  {
+    "tag": "cold",
+    "patterns": [
+      "I have a sore throat, sneezing, and a runny nose.",
+      "I'm feeling congested and I have a slight fever.",
+      "I'm sneezing a lot and have a stuffy nose."
+    ],
+    "responses": [
+      "You might have a common cold. Common symptoms include sore throat, sneezing, runny or stuffy nose, and mild fever."
+    ]
+  },
+  {
+    "tag": "flu",
+    "patterns": [
+      "I have body aches, chills, and a high fever.",
+      "I feel extremely tired and have a headache.",
+      "I have a fever, body aches, and fatigue."
+    ],
+    "responses": [
+      "It sounds like you might have the flu. The flu often comes with high fever, body aches, chills, cough, and fatigue."
+    ]
+  },
+  {
+    "tag": "covid",
+    "patterns": [
+      "I have a dry cough, fever, and I can't taste or smell anything.",
+      "I'm feeling short of breath, have a cough, and fatigue.",
+      "I have a fever and trouble breathing."
+    ],
+    "responses": [
+      "You may be experiencing symptoms of COVID-19. Symptoms include dry cough, fever, difficulty breathing, fatigue, and loss of taste or smell."
+    ]
+  },
+  {
+    "tag": "diabetes",
+    "patterns": [
+      "I feel extremely thirsty and have to pee a lot.",
+      "I am feeling tired and I have blurry vision.",
+      "I’ve been losing weight rapidly and I'm very thirsty."
+    ],
+    "responses": [
+      "These could be symptoms of diabetes. Common signs include excessive thirst, frequent urination, fatigue, and blurred vision."
+    ]
+  },
+  {
+    "tag": "general_infection",
+    "patterns": [
+      "I feel feverish and have a sore throat.",
+      "I have body aches, chills, and a headache.",
+      "I’m coughing and feeling nauseous."
+    ],
+    "responses": [
+      "These symptoms could indicate a general infection. It might be a viral infection like the flu, or a bacterial infection."
+    ]
+  },
+  {
+    "tag": "unknown",
+    "patterns": [
+      "I have some unusual symptoms but I'm not sure what it could be.",
+      "I'm feeling sick but I'm not sure what the symptoms mean.",
+      "Can you help me figure out my symptoms?"
+    ],
+    "responses": [
+      "I'm sorry, I need more information. Could you please describe your symptoms in detail?"
+    ]
+  },
+
+  {
+    "tag": "greeting",
+    "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "What's up?", "How are you?", "Greetings!"],
+    "responses": ["Hello!", "Hi there!", "Greetings!", "Nice to meet you!", "How can I assist you today?", "Welcome!"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Bye", "Goodbye", "See you later", "Catch you later", "Take care", "See you soon"],
+    "responses": ["Goodbye!", "See you soon!", "Take care!", "Have a great day!", "Until next time!"]
+  },
+  {
+    "tag": "fever",
+    "patterns": [
+      "I have a fever and chills.",
+      "I'm feeling hot and have a headache.",
+      "I have a high temperature and I'm sweating.",
+      "I feel feverish and weak.",
+      "My body feels warm and I have shivers."
+    ],
+    "responses": [
+      "You might have a fever. It could be due to an infection or another condition. Rest and stay hydrated.",
+      "It's important to monitor your temperature and consult a healthcare provider if it persists."
+    ]
+  },
+  {
+    "tag": "headache",
+    "patterns": [
+      "I have a headache.",
+      "My head feels like it's throbbing.",
+      "I feel pressure in my head.",
+      "I have a migraine.",
+      "My temples are pounding."
+    ],
+    "responses": [
+      "Headaches can be caused by stress, dehydration, or other factors. Ensure you're hydrated and take a break.",
+      "If headaches persist, consider consulting a healthcare professional."
+    ]
+  },
+  {
+    "tag": "nausea",
+    "patterns": [
+      "I feel nauseous.",
+      "I feel like vomiting.",
+      "My stomach feels uneasy.",
+      "I have an upset stomach.",
+      "I feel queasy."
+    ],
+    "responses": [
+      "Nausea can result from indigestion, motion sickness, or other causes. Try sipping ginger tea or staying hydrated.",
+      "If nausea continues, it may be wise to consult a doctor."
+    ]
+  },
+  {
+    "tag": "cough",
+    "patterns": [
+      "I have a persistent cough.",
+      "I'm coughing a lot.",
+      "I have a dry throat and cough.",
+      "I can't stop coughing.",
+      "My cough is making it hard to breathe."
+    ],
+    "responses": [
+      "Coughing can be due to a cold, flu, or allergies. Stay hydrated and consider a warm drink to soothe your throat.",
+      "If your cough persists, please seek medical advice."
+    ]
+  },
+  {
+    "tag": "fatigue",
+    "patterns": [
+      "I feel tired all the time.",
+      "I have no energy and feel drained.",
+      "I feel exhausted even after sleeping.",
+      "I'm constantly fatigued.",
+      "I can't seem to shake off this tiredness."
+    ],
+    "responses": [
+      "Fatigue can have various causes, such as stress, lack of sleep, or underlying conditions. Consider rest and consulting a professional if it persists.",
+      "It's important to evaluate your lifestyle and consider seeking help if fatigue continues."
+    ]
+  },
+  {
+    "tag": "rash",
+    "patterns": [
+      "I have a rash on my skin.",
+      "My skin is red and itchy.",
+      "I noticed some bumps and redness.",
+      "There are spots on my skin.",
+      "My skin feels irritated."
+    ],
+    "responses": [
+      "Skin rashes can result from allergies, infections, or irritation. Keep the area clean and avoid scratching. If it worsens, seek medical advice.",
+      "Consider noting any new products or foods that may have triggered the rash."
+    ]
+  },
+  {
+    "tag": "general_query",
+    "patterns": [
+      "What could these symptoms mean?",
+      "I have multiple symptoms, can you help?",
+      "I'm not sure what's wrong with me.",
+      "Can you help me understand my symptoms?",
+      "What should I do about my symptoms?"
+    ],
+    "responses": [
+      "Please provide more details about your symptoms. I'll do my best to guide you.",
+      "The more information you provide, the better I can assist you."
+    ]
+  },
+  {
+    "tag": "unknown",
+    "patterns": [
+      "I don't know what I'm feeling.",
+      "Can you figure out what's wrong with me?",
+      "I'm not sure how to describe my symptoms.",
+      "I can't pinpoint my symptoms.",
+      "I feel unwell but can't explain it."
+    ],
+    "responses": [
+      "I need more information to assist you. Please describe your symptoms in as much detail as possible.",
+      "Your detailed description will help me provide better assistance."
+    ]
+  },
+  {
+    "tag": "headache",
+    "patterns": [
+      "I have a headache.",
+      "My head is pounding.",
+      "I feel pressure in my head.",
+      "I'm experiencing migraines.",
+      "I can't concentrate because of my headache."
+    ],
+    "responses": [
+      "Headaches can be caused by tension, dehydration, or other factors. Ensure you're drinking enough water and consider resting in a dark, quiet room.",
+      "If headaches persist or worsen, it may be wise to consult a healthcare professional."
+    ]
+  },
+  {
+    "tag": "nausea",
+    "patterns": [
+      "I feel nauseous.",
+      "I have an upset stomach.",
+      "I'm feeling queasy.",
+      "I think I might throw up.",
+      "My stomach feels uneasy."
+    ],
+    "responses": [
+      "Nausea can be caused by various factors, including food poisoning, stress, or motion sickness. Try to stay hydrated and rest.",
+      "If nausea continues or is accompanied by severe symptoms, please seek medical attention."
+    ]
+  },
+  {
+    "tag": "cough",
+    "patterns": [
+      "I have a persistent cough.",
+      "I'm coughing a lot.",
+      "My throat feels scratchy.",
+      "I can't stop coughing.",
+      "I have a dry cough."
+    ],
+    "responses": [
+      "Coughing can be a symptom of allergies, a cold, or other respiratory issues. Consider using a humidifier and staying hydrated.",
+      "If your cough lasts more than a week or is severe, consult a healthcare provider."
+    ]
+  },
+  {
+    "tag": "fever",
+    "patterns": [
+      "I have a fever.",
+      "I'm feeling hot and cold.",
+      "My temperature is elevated.",
+      "I feel feverish.",
+      "I'm sweating a lot at night."
+    ],
+    "responses": [
+      "A fever can indicate an infection or illness. Monitor your temperature and stay hydrated. If it persists, seek medical advice.",
+      "Rest is important, and over-the-counter medications may help reduce fever."
+    ]
+  },
+  {
+    "tag": "fatigue",
+    "patterns": [
+      "I'm feeling very tired.",
+      "I can't seem to get enough rest.",
+      "I'm exhausted all the time.",
+      "I feel drained of energy.",
+      "I'm struggling to stay awake."
+    ],
+    "responses": [
+      "Fatigue can be caused by lack of sleep, stress, or underlying health issues. Ensure you're getting enough rest and consider evaluating your daily routine.",
+      "If fatigue persists despite adequate rest, it may be beneficial to consult a healthcare professional."
+    ]
+  },
+  {
+    "tag": "sore throat",
+    "patterns": [
+      "My throat hurts.",
+      "I have a scratchy throat.",
+      "It hurts to swallow.",
+      "I feel pain in my throat.",
+      "I have a sore throat."
+    ],
+    "responses": [
+      "A sore throat can be caused by infections, allergies, or dry air. Gargling salt water and staying hydrated may help.",
+      "If your sore throat lasts more than a few days or is severe, consider seeking medical advice."
+    ]
+  },
+  {
+    "tag": "chills",
+    "patterns": [
+      "I'm feeling chills.",
+      "I feel cold even when it's warm.",
+      "I have the shivers.",
+      "I'm shaking from the cold.",
+      "I can't warm up."
+    ],
+    "responses": [
+      "Chills can be a response to fever or an indication of illness. Keep warm and monitor your symptoms.",
+      "If chills are accompanied by fever or other severe symptoms, please seek medical attention."
+    ]
+  },
+  {
+    "tag": "shortness of breath",
+    "patterns": [
+      "I'm having trouble breathing.",
+      "I feel out of breath.",
+      "I can't catch my breath.",
+      "I feel like I can't get enough air.",
+      "I'm wheezing."
+    ],
+    "responses": [
+      "Shortness of breath can be caused by anxiety, asthma, or other respiratory conditions. Try to stay calm and breathe slowly.",
+      "If you experience severe shortness of breath, seek immediate medical attention."
+    ]
+  },
+  {
+    "tag": "joint_pain",
+    "patterns": [
+      "My joints are aching",
+      "I have pain in my knees and elbows",
+      "My joints feel stiff and sore",
+      "Moving my joints causes pain",
+      "My joints hurt when I wake up"
+    ],
+    "responses": [
+      "Joint pain can be caused by inflammation, injury, or conditions like arthritis. Rest the affected joints and consider using cold or heat therapy.",
+      "If joint pain persists or is accompanied by swelling, consulting a healthcare provider is recommended."
+    ]
+  },
+  {
+    "tag": "dizziness",
+    "patterns": [
+      "The room is spinning",
+      "I feel lightheaded when standing",
+      "Everything seems to be moving",
+      "I'm having balance problems",
+      "I feel unsteady on my feet"
+    ],
+    "responses": [
+      "Dizziness can be caused by inner ear issues, low blood pressure, or dehydration. Sit or lie down when feeling dizzy and ensure you're well hydrated.",
+      "If dizziness is severe or persistent, seek medical evaluation."
+    ]
+  },
+  {
+    "tag": "stomach_pain",
+    "patterns": [
+      "I have sharp pains in my abdomen",
+      "My stomach is cramping badly",
+      "I have a constant dull ache in my belly",
+      "My stomach hurts after eating",
+      "I have intense abdominal pain"
+    ],
+    "responses": [
+      "Stomach pain can be caused by indigestion, gas, or more serious conditions. Try avoiding heavy foods and monitor when the pain occurs.",
+      "If pain is severe or accompanied by other symptoms, seek immediate medical attention."
+    ]
+  },
+  {
+    "tag": "allergic_reaction",
+    "patterns": [
+      "My face is swelling up",
+      "I have hives all over",
+      "My throat feels like it's closing",
+      "I'm having an allergic reaction",
+      "My skin is covered in welts"
+    ],
+    "responses": [
+      "These symptoms suggest an allergic reaction. If you have an epinephrine auto-injector and have been prescribed one, use it.",
+      "Severe allergic reactions require immediate emergency medical attention. Call emergency services right away."
+    ]
+  },
+  {
+    "tag": "ear_problems",
+    "patterns": [
+      "My ear is ringing",
+      "I have ear pain",
+      "There's pressure in my ears",
+      "I can't hear well",
+      "My ears feel blocked"
+    ],
+    "responses": [
+      "Ear problems can be caused by infections, pressure changes, or wax buildup. Avoid inserting objects into your ear.",
+      "If symptoms persist or you experience severe pain or hearing loss, consult an healthcare provider."
+    ]
+  },
+  {
+    "tag": "eye_issues",
+    "patterns": [
+      "My eyes are very red",
+      "I have blurred vision",
+      "My eyes are itchy and watery",
+      "There's a burning sensation in my eyes",
+      "I see spots or floaters"
+    ],
+    "responses": [
+      "Eye symptoms can be caused by allergies, strain, or infections. Rest your eyes and avoid rubbing them.",
+      "If you experience sudden vision changes or severe eye pain, seek immediate medical attention."
+    ]
+  },
+  {
+    "tag": "back_pain",
+    "patterns": [
+      "My lower back is killing me",
+      "I have sharp pain in my spine",
+      "My back feels stiff and sore",
+      "I can't bend over without pain",
+      "My back hurts when I move"
+    ],
+    "responses": [
+      "Back pain can be caused by poor posture, injury, or strain. Try gentle stretches and maintain good posture.",
+      "For severe or persistent back pain, especially with numbness or weakness, consult a healthcare provider."
+    ]
+  },
+  {
+    "tag": "anxiety_symptoms",
+    "patterns": [
+      "My heart is racing for no reason",
+      "I feel constant worry and panic",
+      "I'm having trouble sleeping due to anxiety",
+      "My hands are shaking and I feel nervous",
+      "I can't stop overthinking everything"
+    ],
+    "responses": [
+      "These symptoms are common with anxiety. Try deep breathing exercises and consider relaxation techniques.",
+      "If anxiety is affecting your daily life, speaking with a mental health professional can be very helpful."
+    ]
+  },
+  {
+    "tag": "muscle_cramps",
+    "patterns": [
+      "I keep getting muscle spasms",
+      "My muscles are cramping frequently",
+      "I have painful muscle contractions",
+      "My calf muscles keep seizing up",
+      "I'm experiencing muscle tightness"
+    ],
+    "responses": [
+      "Muscle cramps can be caused by dehydration, electrolyte imbalances, or overexertion. Stay hydrated and consider gentle stretching.",
+      "If cramps are severe or frequent, consult a healthcare provider to rule out underlying conditions."
+    ]
+  },
+  {
+    "tag": "skin_infection",
+    "patterns": [
+      "I have a warm, red patch on my skin",
+      "There's pus coming from a skin wound",
+      "My skin is tender and swollen",
+      "I have a spreading redness on my skin",
+      "There's an infected area on my skin"
+    ],
+    "responses": [
+      "These symptoms suggest a possible skin infection. Keep the area clean and avoid touching or scratching.",
+      "If you notice spreading redness, warmth, or fever, seek medical attention as antibiotics may be needed."
+    ]
+  },
+  {
+    "tag": "tooth_pain",
+    "patterns": [
+      "I have severe tooth pain",
+      "My tooth hurts when I eat hot or cold foods",
+      "I have throbbing pain in my jaw",
+      "My gums are swollen and painful",
+      "I have constant dental pain"
+    ],
+    "responses": [
+      "Tooth pain can indicate cavity, infection, or gum disease. Rinse with warm salt water and avoid very hot or cold foods.",
+      "Dental pain often requires professional treatment. Schedule an appointment with a dentist."
+    ]
+  },
+  {
+    "tag": "menstrual_issues",
+    "patterns": [
+      "I have unusually heavy menstrual bleeding",
+      "My period cramps are extremely painful",
+      "I'm experiencing irregular periods",
+      "I have severe PMS symptoms",
+      "My menstrual cycle has changed dramatically"
+    ],
+    "responses": [
+      "Menstrual changes can be due to various factors including stress, hormonal changes, or underlying conditions.",
+      "If you experience severe pain or unusual changes in your cycle, consult with a healthcare provider."
+    ]
+  },
+  {
+    "tag": "insomnia",
+    "patterns": [
+      "I can't fall asleep at night",
+      "I wake up frequently and can't go back to sleep",
+      "I'm having trouble staying asleep",
+      "My sleep pattern is completely disrupted",
+      "I lie awake for hours trying to sleep"
+    ],
+    "responses": [
+      "Insomnia can be caused by stress, poor sleep habits, or other health conditions. Try maintaining a regular sleep schedule and avoiding screens before bed.",
+      "If sleep problems persist, consider consulting a sleep specialist."
+    ]
+  },
+  {
+    "tag": "food_poisoning",
+    "patterns": [
+      "I got sick after eating something bad",
+      "I have severe diarrhea and vomiting",
+      "My stomach is cramping after a meal",
+      "I think I ate contaminated food",
+      "I've been throwing up since eating"
+    ],
+    "responses": [
+      "Food poisoning symptoms typically resolve within 24-48 hours. Stay hydrated and rest. Avoid solid foods until vomiting subsides.",
+      "If symptoms are severe or persist, or if you show signs of dehydration, seek medical attention."
+    ]
+  },
+  {
+    "tag": "burn_injury",
+    "patterns": [
+      "I burned myself and it's blistering",
+      "I have a painful burn on my skin",
+      "I got scalded with hot water",
+      "My skin is red and painful from a burn",
+      "I touched something hot and burned myself"
+    ],
+    "responses": [
+      "For minor burns, cool the area with room temperature water for 10-20 minutes. Don't use ice or break blisters.",
+      "If the burn is large, deep, or on a sensitive area, seek immediate medical attention."
+    ]
+  },
+  {
+    "tag": "dehydration",
+    "patterns": [
+      "My mouth is extremely dry",
+      "I haven't urinated all day",
+      "My skin feels very dry and tight",
+      "I'm really thirsty but feel nauseous",
+      "My lips are cracked and I feel weak"
+    ],
+    "responses": [
+      "These symptoms suggest dehydration. Try to slowly sip water or electrolyte solutions.",
+      "If you can't keep fluids down or symptoms worsen, seek immediate medical attention."
+    ]
+  },
+  {
+    "tag": "vertigo",
+    "patterns": [
+      "The world keeps spinning even when I'm still",
+      "I feel like I'm on a boat constantly",
+      "Everything is rotating around me",
+      "I get dizzy spells that last for hours",
+      "My balance is off and I feel disoriented"
+    ],
+    "responses": [
+      "Vertigo can be caused by inner ear problems or other conditions. Try sitting or lying still when symptoms occur.",
+      "If vertigo persists or affects your daily activities, consult a healthcare provider for proper evaluation."
+    ]
+  },
+  {
+    "tag": "blood_pressure",
+    "patterns": [
+      "I can feel my heartbeat in my ears",
+      "My face feels flushed and hot",
+      "I'm having nose bleeds frequently",
+      "My blood pressure readings are high",
+      "I have a pounding sensation in my chest"
+    ],
+    "responses": [
+      "These could be signs of high blood pressure. Try to stay calm and avoid caffeine or stimulants.",
+      "Regular blood pressure monitoring is important. Consult a healthcare provider for proper evaluation and treatment."
+    ]
+  },
+  {
+    "tag": "asthma_symptoms",
+    "patterns": [
+      "My chest feels tight when I breathe",
+      "I'm wheezing during exercise",
+      "I wake up coughing at night",
+      "I can't take deep breaths",
+      "My breathing is shallow and rapid"
+    ],
+    "responses": [
+      "These symptoms are consistent with asthma. Use prescribed inhalers if you have them and try to remain calm.",
+      "If breathing difficulties are severe or inhalers aren't helping, seek emergency medical attention."
+    ]
+  },
+  {
+    "tag": "concussion",
+    "patterns": [
+      "I hit my head and feel confused",
+      "I'm having trouble remembering things after a fall",
+      "My vision is blurry since hitting my head",
+      "I feel nauseous after bumping my head",
+      "I have a headache and sensitivity to light after head injury"
+    ],
+    "responses": [
+      "These symptoms suggest a possible concussion. Rest and avoid physical activities or screen time.",
+      "Head injuries require medical attention. Please seek immediate medical care for proper evaluation."
+    ]
+  },
+  {
+    "tag": "kidney_stones",
+    "patterns": [
+      "I have severe pain in my lower back and side",
+      "It hurts when I urinate and I see blood",
+      "I have sharp pains that come in waves",
+      "The pain radiates to my groin area",
+      "I feel constant pressure in my abdomen"
+    ],
+    "responses": [
+      "These symptoms are common with kidney stones. Stay hydrated and seek medical attention for proper diagnosis.",
+      "If pain is severe or you have fever, seek immediate medical care."
+    ]
+  },
+  {
+    "tag": "carpal_tunnel",
+    "patterns": [
+      "My hands go numb while typing",
+      "I have tingling in my fingers",
+      "My wrists hurt after using the computer",
+      "I drop things more often than usual",
+      "My hands feel weak and painful"
+    ],
+    "responses": [
+      "These symptoms suggest carpal tunnel syndrome. Take frequent breaks and use proper ergonomic positioning.",
+      "Consider wearing a wrist brace and consulting a healthcare provider if symptoms persist."
+    ]
+  },
+  {
+    "tag": "food_allergy",
+    "patterns": [
+      "My tongue feels itchy after eating",
+      "My lips started swelling after a meal",
+      "I get hives when I eat certain foods",
+      "My mouth tingles after eating specific things",
+      "I feel sick shortly after eating particular foods"
+    ],
+    "responses": [
+      "These symptoms indicate a possible food allergy. Keep track of foods that trigger reactions and avoid them.",
+      "If you experience difficulty breathing or severe reactions, seek emergency medical care immediately."
+    ]
+  },
+  {
+    "tag": "tinnitus",
+    "patterns": [
+      "I hear constant ringing in my ears",
+      "There's a buzzing sound that won't go away",
+      "I hear a high-pitched noise constantly",
+      "My ears won't stop making noise",
+      "I hear whooshing sounds in my ears"
+    ],
+    "responses": [
+      "Tinnitus can be caused by exposure to loud noise, ear problems, or certain medications. Try to avoid loud environments.",
+      "If tinnitus is severely affecting your quality of life, consult an audiologist or ENT specialist."
+    ]
+  },
+  {
+    "tag": "gout",
+    "patterns": [
+      "My big toe is extremely painful and swollen",
+      "I have intense joint pain that came on suddenly",
+      "My joint is red, hot, and tender to touch",
+      "I have severe foot pain that woke me up",
+      "My ankle is swollen and too painful to walk on"
+    ],
+    "responses": [
+      "These symptoms are consistent with gout. Rest the affected joint and apply ice to reduce inflammation.",
+      "See a healthcare provider for proper diagnosis and treatment. They may prescribe medication to manage the pain."
+    ]
+  },
+  {
+    "tag": "shingles",
+    "patterns": [
+      "I have a painful rash on one side of my body",
+      "I feel burning pain followed by blisters",
+      "I have sensitive skin and a band of rash",
+      "There's tingling pain before a rash appears",
+      "I have painful blisters along my nerve line"
+    ],
+    "responses": [
+      "These symptoms suggest shingles. Early treatment with antiviral medication is important.",
+      "Contact your healthcare provider immediately, as early treatment can reduce severity and duration."
+    ]
+  },
+  {
+    "tag": "thyroid_issues",
+    "patterns": [
+      "I've gained weight despite not eating more",
+      "I'm always cold and my hair is falling out",
+      "My heart races and I can't gain weight",
+      "I feel jittery and can't sleep",
+      "I'm exhausted but can't relax"
+    ],
+    "responses": [
+      "These symptoms could indicate thyroid problems. Both overactive and underactive thyroid can affect many body functions.",
+      "A blood test can check your thyroid function. Consult your healthcare provider for proper evaluation."
+    ]
+  },
+  {
+    "tag": "appendicitis",
+    "patterns": [
+      "I have sharp pain near my belly button that moved to my right side",
+      "I have severe pain in my lower right abdomen",
+      "I feel nauseous and have lost my appetite",
+      "The pain gets worse when I move or cough",
+      "I have fever and abdominal pain on my right side"
+    ],
+    "responses": [
+      "These symptoms could indicate appendicitis, which requires immediate medical attention.",
+      "Go to the emergency room immediately. Do not eat or drink anything until evaluated by a doctor."
+    ]
+  },
+  {
+    "tag": "pneumonia",
+    "patterns": [
+      "I'm coughing up colored mucus and have chest pain",
+      "I have fever and difficulty breathing",
+      "My chest hurts when I take deep breaths",
+      "I'm very tired and have a wet cough",
+      "I can't stop coughing and feel short of breath"
+    ],
+    "responses": [
+      "These symptoms suggest possible pneumonia. Rest and monitor your breathing and temperature.",
+      "Seek medical attention, especially if you have difficulty breathing or high fever."
+    ]
+  },
+  {
+    "tag": "gallbladder",
+    "patterns": [
+      "I have severe pain in my upper right abdomen",
+      "I get pain after eating fatty foods",
+      "The pain radiates to my back and shoulder",
+      "I feel nauseous after meals",
+      "I have sudden intense abdominal pain"
+    ],
+    "responses": [
+      "These symptoms may indicate gallbladder problems. Try eating a low-fat diet to reduce symptoms.",
+      "If pain is severe or persistent, seek medical evaluation as you may need imaging tests."
+    ]
+  },
+  {
+    "tag": "anemia",
+    "patterns": [
+      "I'm always tired and short of breath",
+      "My skin is pale and I feel weak",
+      "I get dizzy when I stand up quickly",
+      "My heart races with minimal activity",
+      "I have no energy and feel cold"
+    ],
+    "responses": [
+      "These symptoms could indicate anemia. Try eating iron-rich foods and consider iron supplements.",
+      "A blood test can confirm if you're anemic. Consult your healthcare provider for proper diagnosis."
+    ]
+  },
+  {
+    "tag": "lupus",
+    "patterns": [
+      "I have a butterfly-shaped rash on my face",
+      "My joints hurt and I'm sensitive to sun",
+      "I get random fevers and feel exhausted",
+      "My fingers turn white in the cold",
+      "I have unexplained hair loss and joint pain"
+    ],
+    "responses": [
+      "These symptoms could be signs of lupus, an autoimmune condition that affects multiple body systems.",
+      "A rheumatologist can perform specific tests for diagnosis. Please consult a healthcare provider for evaluation."
+    ]
+  },
+  {
+    "tag": "bronchitis",
+    "patterns": [
+      "I've been coughing up thick mucus for weeks",
+      "My chest feels heavy and congested",
+      "I have a deep cough that won't go away",
+      "I'm wheezing and coughing up phlegm",
+      "My chest feels tight and I have a persistent cough"
+    ],
+    "responses": [
+      "These symptoms suggest bronchitis. Rest, stay hydrated, and use a humidifier to help ease symptoms.",
+      "If symptoms persist beyond 3 weeks or you develop fever, seek medical attention."
+    ]
+  },
+  {
+    "tag": "sciatica",
+    "patterns": [
+      "I have shooting pain down my leg",
+      "My lower back pain radiates to my foot",
+      "I feel tingling and numbness in my leg",
+      "One side of my buttock and leg hurts",
+      "The pain gets worse when I sit"
+    ],
+    "responses": [
+      "These symptoms are consistent with sciatica. Gentle stretching and proper posture may help relieve symptoms.",
+      "Consider physical therapy and consult a healthcare provider if pain is severe or persistent."
+    ]
+  },
+  {
+    "tag": "ulcer",
+    "patterns": [
+      "I have burning pain in my stomach",
+      "My stomach hurts between meals",
+      "The pain is worse when my stomach is empty",
+      "I feel better after eating but then it returns",
+      "I have gnawing pain in my upper abdomen"
+    ],
+    "responses": [
+      "These symptoms suggest a possible stomach ulcer. Avoid spicy foods and alcohol, and eat smaller meals.",
+      "See a healthcare provider for proper diagnosis and treatment, as ulcers often require medication."
+    ]
+  },
+  {
+    "tag": "psoriasis",
+    "patterns": [
+      "I have thick, scaly patches on my skin",
+      "My skin is red and itchy with silver scales",
+      "I have painful, dry patches on my elbows",
+      "My scalp is extremely flaky and itchy",
+      "I have red, scaly skin that sometimes bleeds"
+    ],
+    "responses": [
+      "These symptoms are typical of psoriasis. Keep skin moisturized and avoid triggers like stress and certain foods.",
+      "A dermatologist can provide treatment options to manage symptoms effectively."
+    ]
+  },
+  {
+    "tag": "sinusitis",
+    "patterns": [
+      "I have pressure around my eyes and nose",
+      "My face feels tender when I touch it",
+      "I have thick, colored nasal discharge",
+      "My sinuses hurt and I can't breathe well",
+      "I have facial pain and a blocked nose"
+    ],
+    "responses": [
+      "These symptoms indicate sinusitis. Try nasal irrigation, steam inhalation, and staying hydrated.",
+      "If symptoms last more than 10 days or are severe, consult a healthcare provider."
+    ]
+  },
+  {
+    "tag": "fibromyalgia",
+    "patterns": [
+      "I have widespread body pain",
+      "I'm always tired no matter how much I sleep",
+      "I have tender points all over my body",
+      "I can't think clearly and feel exhausted",
+      "My muscles ache and I have trouble sleeping"
+    ],
+    "responses": [
+      "These symptoms are common with fibromyalgia. Gentle exercise and stress management can help manage symptoms.",
+      "A rheumatologist can provide proper diagnosis and develop a treatment plan."
+    ]
+  },
+  {
+    "tag": "bells_palsy",
+    "patterns": [
+      "One side of my face is drooping",
+      "I can't move half of my face",
+      "My eye won't close on one side",
+      "I'm having trouble eating and drinking",
+      "My smile is crooked suddenly"
+    ],
+    "responses": [
+      "These symptoms suggest Bell's palsy. Seek immediate medical attention for proper diagnosis.",
+      "Early treatment with medications can help improve recovery outcomes."
+    ]
+  },
+  {
+    "tag": "celiac_disease",
+    "patterns": [
+      "I get bloated after eating bread or pasta",
+      "I have constant digestive issues and diarrhea",
+      "I feel tired after eating gluten products",
+      "I've lost weight unexpectedly",
+      "My stomach hurts after eating wheat products"
+    ],
+    "responses": [
+      "These symptoms could indicate celiac disease or gluten sensitivity. Consider avoiding gluten-containing foods.",
+      "A proper diagnosis requires specific blood tests and possibly a biopsy. Consult a healthcare provider before eliminating gluten."
+    ]
+  },
+  {
+    "tag": "parkinsons",
+    "patterns": [
+      "My hands shake even when resting",
+      "My movements have become very slow",
+      "I'm having trouble with balance",
+      "My handwriting has gotten much smaller",
+      "I notice stiffness in my arms and legs"
+    ],
+    "responses": [
+      "These symptoms could be signs of Parkinson's disease. Early diagnosis and treatment are important.",
+      "A neurologist can properly evaluate these symptoms and provide appropriate treatment options."
+    ]
+  },
+  {
+    "tag": "endometriosis",
+    "patterns": [
+      "I have extremely painful periods",
+      "I experience pain during intercourse",
+      "I have chronic pelvic pain",
+      "My periods are very heavy and irregular",
+      "I have pain during bowel movements"
+    ],
+    "responses": [
+      "These symptoms are consistent with endometriosis. Track your symptoms and their severity.",
+      "A gynecologist can provide proper diagnosis and discuss treatment options to manage symptoms."
+    ]
+  },
+  {
+    "tag": "multiple_sclerosis",
+    "patterns": [
+      "I have numbness and tingling in different parts of my body",
+      "My vision is blurry in one eye",
+      "I feel dizzy and off balance frequently",
+      "I'm experiencing unusual fatigue",
+      "I have trouble coordinating my movements"
+    ],
+    "responses": [
+      "These symptoms could indicate multiple sclerosis or other neurological conditions.",
+      "A neurologist can perform proper testing and evaluation. Early diagnosis is important."
+    ]
+  },
+  {
+    "tag": "rheumatoid_arthritis",
+    "patterns": [
+      "My joints are swollen and stiff in the morning",
+      "I have symmetrical joint pain",
+      "My hands and feet are painful and stiff",
+      "My joints feel warm and tender",
+      "I feel fatigued and have joint pain"
+    ],
+    "responses": [
+      "These symptoms suggest rheumatoid arthritis. Keep track of which joints are affected and when.",
+      "A rheumatologist can provide proper diagnosis and treatment options to manage symptoms."
+    ]
+  },
+  {
+    "tag": "sleep_apnea",
+    "patterns": [
+      "I stop breathing during sleep",
+      "I wake up gasping for air",
+      "I snore loudly every night",
+      "I'm always tired despite sleeping",
+      "I have morning headaches daily"
+    ],
+    "responses": [
+      "These symptoms are common with sleep apnea. Consider sleeping on your side and maintaining a healthy weight.",
+      "A sleep study can properly diagnose this condition. Consult a sleep specialist for evaluation."
+    ]
+  },
+  {
+    "tag": "ibs",
+    "patterns": [
+      "My bowel habits change frequently",
+      "I have recurring stomach cramps",
+      "Certain foods trigger digestive issues",
+      "I alternate between constipation and diarrhea",
+      "My symptoms improve after bowel movements"
+    ],
+    "responses": [
+      "These symptoms are common with Irritable Bowel Syndrome. Keep a food diary to identify triggers.",
+      "A gastroenterologist can help diagnose and develop a management plan for your symptoms."
+    ]
+  },
+  {
+    "tag": "osteoporosis",
+    "patterns": [
+      "I've become shorter over time",
+      "I broke a bone from a minor fall",
+      "My posture is becoming hunched",
+      "My bones break easily",
+      "I have back pain that's getting worse"
+    ],
+    "responses": [
+      "These symptoms could indicate osteoporosis. Ensure adequate calcium and vitamin D intake.",
+      "A bone density test can diagnose this condition. Consult your healthcare provider for evaluation."
+    ]
+  },
+  {
+    "tag": "meningitis",
+    "patterns": [
+      "I have a stiff neck and severe headache",
+      "Light hurts my eyes and I have a fever",
+      "I can't bend my head forward",
+      "I have a high fever and confusion",
+      "I have a severe headache with vomiting"
+    ],
+    "responses": [
+      "These symptoms could indicate meningitis, which is a medical emergency.",
+      "Seek immediate emergency medical attention. Early treatment is crucial for this serious condition."
+    ]
+  },
+  {
+    "tag": "peripheral_neuropathy",
+    "patterns": [
+      "My feet feel like they're burning",
+      "I have constant pins and needles in my hands",
+      "I've lost feeling in my fingers and toes",
+      "My limbs feel weak and tingly",
+      "I have numbness that spreads up my legs"
+    ],
+    "responses": [
+      "These symptoms suggest peripheral neuropathy. Keep affected areas protected and avoid prolonged pressure.",
+      "A neurologist can evaluate the cause and recommend appropriate treatment options."
+    ]
+  },
+  {
+    "tag": "mononucleosis",
+    "patterns": [
+      "I have extreme fatigue and sore throat",
+      "My lymph nodes are swollen and painful",
+      "I feel weak and have a fever for weeks",
+      "My spleen feels swollen and tender",
+      "I can't stay awake and my throat hurts"
+    ],
+    "responses": [
+      "These symptoms are common with mononucleosis. Rest is essential, and avoid strenuous activity.",
+      "The condition usually resolves on its own, but see a healthcare provider for proper diagnosis and monitoring."
+    ]
+  },
+  {
+    "tag": "temporal_arteritis",
+    "patterns": [
+      "I have severe pain in my temples",
+      "My scalp is tender to touch",
+      "I have headaches and jaw pain when chewing",
+      "My vision is blurry with temple pain",
+      "I have persistent head pain and fatigue"
+    ],
+    "responses": [
+      "These symptoms could indicate temporal arteritis, which requires urgent medical attention.",
+      "See a doctor immediately as this condition can lead to vision loss if untreated."
+    ]
+  },
+  {
+    "tag": "diverticulitis",
+    "patterns": [
+      "I have severe left-sided abdominal pain",
+      "My abdomen is tender to touch",
+      "I have fever and changed bowel habits",
+      "I feel bloated and have constant pain",
+      "I have sharp pain in my lower left abdomen"
+    ],
+    "responses": [
+      "These symptoms suggest diverticulitis. Follow a liquid diet and avoid solid foods temporarily.",
+      "Seek medical attention as antibiotics may be needed. This condition requires proper medical evaluation."
+    ]
+  },
+  {
+    "tag": "angina",
+    "patterns": [
+      "I feel chest pressure during exercise",
+      "I have chest pain that goes to my arm",
+      "My chest feels tight when I'm stressed",
+      "I get short of breath with chest discomfort",
+      "I have recurring chest pain with exertion"
+    ],
+    "responses": [
+      "These symptoms could indicate angina. Stop any current activity and rest.",
+      "Seek immediate medical attention, especially if symptoms are new or worsening."
+    ]
+  },
+  {
+    "tag": "cluster_headache",
+    "patterns": [
+      "I have severe pain around one eye",
+      "My headache wakes me up at night",
+      "I have intense one-sided head pain",
+      "My eye tears up during headaches",
+      "I get recurring severe headaches at same time"
+    ],
+    "responses": [
+      "These symptoms are consistent with cluster headaches. Keep a headache diary to track patterns.",
+      "A neurologist can provide specific treatment options for this type of headache."
+    ]
+  },
+  {
+    "tag": "addisons_disease",
+    "patterns": [
+      "I'm always tired and have dark skin patches",
+      "I crave salt and feel weak",
+      "I've lost weight and feel dizzy often",
+      "I have low blood pressure and fatigue",
+      "My skin is getting darker in certain areas"
+    ],
+    "responses": [
+      "These symptoms could indicate Addison's disease. Track your symptoms and any triggers.",
+      "See an endocrinologist for proper evaluation and hormone testing."
+    ]
+  },
+  {
+    "tag": "chronic_fatigue_syndrome",
+    "patterns": [
+      "I'm always tired and it doesn't improve with rest",
+      "I have muscle pain and joint pain",
+      "I feel exhausted after minimal exertion",
+      "I have trouble concentrating and remembering things",
+      "I experience sleep disturbances"
+    ],
+    "responses": [
+      "These symptoms could indicate chronic fatigue syndrome. It's important to rest and manage stress.",
+      "Consult a healthcare provider for a proper diagnosis and management plan."
+    ]
+  },
+  {
+    "tag": "hyperthyroidism",
+    "patterns": [
+      "I feel jittery and anxious all the time",
+      "I have rapid heartbeat and palpitations",
+      "I'm losing weight without trying",
+      "I feel hot and sweat excessively",
+      "My hair is thinning and I have frequent bowel movements"
+    ],
+    "responses": [
+      "These symptoms may suggest hyperthyroidism. A blood test can confirm thyroid hormone levels.",
+      "Consult an endocrinologist for evaluation and treatment options."
+    ]
+  },
+  {
+    "tag": "hypothyroidism",
+    "patterns": [
+      "I'm feeling cold all the time",
+      "I have dry skin and hair loss",
+      "I'm gaining weight without changing my diet",
+      "I feel fatigued and sluggish",
+      "I have constipation and muscle weakness"
+    ],
+    "responses": [
+      "These symptoms could indicate hypothyroidism. A blood test can check thyroid function.",
+      "Consult a healthcare provider for proper diagnosis and treatment."
+    ]
+  },
+  {
+    "tag": "chronic_kidney_disease",
+    "patterns": [
+      "I have swelling in my legs and ankles",
+      "I feel fatigued and weak",
+      "I have changes in my urine output",
+      "I experience nausea and loss of appetite",
+      "I have persistent itching"
+    ],
+    "responses": [
+      "These symptoms may suggest chronic kidney disease. It's important to monitor kidney function.",
+      "Consult a nephrologist for evaluation and management."
+    ]
+  },
+  {
+    "tag": "bipolar_disorder",
+    "patterns": [
+      "I have extreme mood swings",
+      "I feel very energetic and talkative at times",
+      "I experience periods of deep sadness",
+      "I have trouble sleeping or sleep too much",
+      "I engage in risky behaviors during manic episodes"
+    ],
+    "responses": [
+      "These symptoms could indicate bipolar disorder. It's important to seek help from a mental health professional.",
+      "A psychiatrist can provide a proper diagnosis and treatment plan."
+    ]
+  },
+  {
+    "tag": "schizophrenia",
+    "patterns": [
+      "I hear voices that others don't hear",
+      "I have trouble distinguishing reality from my thoughts",
+      "I feel paranoid and think others are out to get me",
+      "I have disorganized thinking and speech",
+      "I experience emotional flatness or lack of motivation"
+    ],
+    "responses": [
+      "These symptoms may suggest schizophrenia. Early intervention is crucial.",
+      "Consult a mental health professional for evaluation and treatment options."
+    ]
+  },
+  {
+    "tag": "post_traumatic_stress_disorder",
+    "patterns": [
+      "I have flashbacks of a traumatic event",
+      "I feel anxious and on edge all the time",
+      "I avoid places or people that remind me of the trauma",
+      "I have trouble sleeping and experience nightmares",
+      "I feel emotionally numb or detached"
+    ],
+    "responses": [
+      "These symptoms could indicate PTSD. It's important to seek support from a mental health professional.",
+      "Therapy and support groups can be beneficial for recovery."
+    ]
+  },
+  {
+    "tag": "autism_spectrum_disorder",
+    "patterns": [
+      "I have difficulty understanding social cues",
+      "I prefer routines and get upset with changes",
+      "I have intense interests in specific topics",
+      "I struggle with communication and expressing emotions",
+      "I may have sensory sensitivities"
+    ],
+    "responses": [
+      "These symptoms may suggest autism spectrum disorder. Early diagnosis can help with support and interventions.",
+      "Consult a psychologist or psychiatrist for evaluation and resources."
+    ]
+  },
+  {
+    "tag": "chronic_pain_syndrome",
+    "patterns": [
+      "I have persistent pain that lasts for months",
+      "My pain is widespread and affects my daily activities",
+      "I feel fatigued and have trouble sleeping due to pain",
+      "Certain movements trigger my pain",
+      "I have muscle stiffness and soreness"
+    ],
+    "responses": [
+      "These symptoms could indicate chronic pain syndrome. It's important to consult a healthcare provider for a comprehensive evaluation.",
+      "A pain management specialist can help develop a treatment plan tailored to your needs."
+    ]
+  },
+  {
+    "tag": "dementia",
+    "patterns": [
+      "I have trouble remembering recent events",
+      "I often get lost in familiar places",
+      "I struggle to find the right words when speaking",
+      "I have difficulty with problem-solving and planning",
+      "I notice changes in my mood and behavior"
+    ],
+    "responses": [
+      "These symptoms may suggest dementia. Early diagnosis is crucial for management.",
+      "Consult a neurologist or geriatrician for a thorough assessment."
+    ]
+  },
+  {
+    "tag": "chronic_obstructive_pulmonary_disease",
+    "patterns": [
+      "I have a persistent cough that produces mucus",
+      "I feel short of breath, especially during physical activity",
+      "I wheeze or have a tight feeling in my chest",
+      "I often get respiratory infections",
+      "I have difficulty catching my breath"
+    ],
+    "responses": [
+      "These symptoms could indicate chronic obstructive pulmonary disease (COPD). It's important to seek medical evaluation.",
+      "A pulmonologist can provide a proper diagnosis and treatment options."
+    ]
+  },
+  {
+    "tag": "gastroesophageal_reflux_disease",
+    "patterns": [
+      "I have frequent heartburn or acid reflux",
+      "I feel a burning sensation in my chest after eating",
+      "I have difficulty swallowing or feel like food is stuck",
+      "I experience regurgitation of food or sour liquid",
+      "I have a persistent cough or hoarseness"
+    ],
+    "responses": [
+      "These symptoms may suggest gastroesophageal reflux disease (GERD). Lifestyle changes and medications can help manage symptoms.",
+      "Consult a gastroenterologist for further evaluation and treatment options."
+    ]
+  },
+  {
+    "tag": "hepatitis",
+    "patterns": [
+      "I have jaundice (yellowing of the skin and eyes)",
+      "I feel fatigued and have a loss of appetite",
+      "I have abdominal pain, especially in the upper right side",
+      "I experience dark urine and pale stools",
+      "I feel itchy all over my body"
+    ],
+    "responses": [
+      "These symptoms could indicate hepatitis. It's important to seek medical attention for proper diagnosis and treatment.",
+      "A hepatologist can provide specialized care for liver conditions."
+    ]
+  },
+  {
+    "tag": "thrombosis",
+    "patterns": [
+      "I have swelling in one leg or arm",
+      "I feel pain or tenderness in my leg or arm",
+      "I notice a change in color or temperature in the affected limb",
+      "I have difficulty breathing or chest pain",
+      "I have a history of prolonged immobility or surgery"
+    ],
+    "responses": [
+      "These symptoms may suggest thrombosis (blood clot). Seek immediate medical attention, as this can be life-threatening.",
+      "A healthcare provider can perform tests to confirm the diagnosis and initiate treatment."
+    ]
+  },
+  {
+    "tag": "cushing_syndrome",
+    "patterns": [
+      "I have a round face and increased fat around my neck",
+      "I notice purple or pink stretch marks on my skin",
+      "I feel weak and have muscle loss",
+      "I have high blood pressure and diabetes",
+      "I experience mood swings and depression"
+    ],
+    "responses": [
+      "These symptoms could indicate Cushing syndrome. It's important to consult an endocrinologist for evaluation.",
+      "A healthcare provider can perform tests to determine the cause and develop a treatment plan."
+    ]
+  },
+  {
+    "tag": "pneumothorax",
+    "patterns": [
+      "I have sudden chest pain and difficulty breathing",
+      "I feel a sharp pain that worsens with deep breaths",
+      "I notice a rapid heart rate and shallow breathing",
+      "I have a cough that produces little or no mucus",
+      "I feel lightheaded or faint"
+    ],
+    "responses": [
+      "These symptoms may suggest a pneumothorax (collapsed lung). Seek immediate medical attention.",
+      "A healthcare provider can perform imaging tests to confirm the diagnosis and provide treatment."
+    ]
+  },
+  {
+    "tag": "chronic_lymphocytic_leukemia",
+    "patterns": [
+      "I have swollen lymph nodes in my neck, armpits, or groin",
+      "I feel unusually tired or weak",
+      "I have frequent infections",
+      "I experience unexplained weight loss",
+      "I have night sweats or fever"
+    ],
+    "responses": [
+      "These symptoms could indicate chronic lymphocytic leukemia (CLL). It's important to consult a hematologist for evaluation.",
+      "A healthcare provider can perform blood tests and imaging studies to confirm the diagnosis."
+    ]
+  },
+  {
+    "tag": "scleroderma",
+    "patterns": [
+      "I have tight, thickened skin on my fingers and face",
+      "I feel pain or stiffness in my joints",
+      "I experience difficulty swallowing",
+      "I have changes in skin color or temperature",
+      "I notice swelling in my hands and feet"
+    ],
+    "responses": [
+      "These symptoms may suggest scleroderma, an autoimmune condition. Consult a rheumatologist for proper evaluation.",
+      "A healthcare provider can perform tests to assess the extent of the disease and recommend treatment options."
+    ]
+  },
+  {
+    "tag": "myasthenia_gravis",
+    "patterns": [
+      "I have muscle weakness that worsens with activity",
+      "I experience drooping eyelids or double vision",
+      "I have difficulty swallowing or speaking",
+      "I feel fatigued after minimal exertion",
+      "I notice weakness in my arms and legs"
+    ],
+    "responses": [
+      "These symptoms could indicate myasthenia gravis. It's important to consult a neurologist for evaluation.",
+      "A healthcare provider can perform tests to confirm the diagnosis and develop a treatment plan."
+    ]
+  },
+  {
+    "tag": "hemochromatosis",
+    "patterns": [
+      "I have joint pain and stiffness",
+      "I feel fatigued and have a loss of energy",
+      "I notice changes in skin color, especially a bronze tint",
+      "I have abdominal pain and liver issues",
+      "I experience diabetes or heart problems"
+    ],
+    "responses": [
+      "These symptoms may suggest hemochromatosis, a condition of iron overload. Consult a healthcare provider for evaluation.",
+      "Blood tests can confirm the diagnosis, and treatment may involve phlebotomy or medication."
+    ]
+  },
+  {
+    "tag": "pseudogout",
+    "patterns": [
+      "I have sudden joint pain, often in my knees or wrists",
+      "My joints are swollen and tender",
+      "I experience stiffness and limited range of motion",
+      "I notice joint pain that comes and goes",
+      "I have a history of joint issues"
+    ],
+    "responses": [
+      "These symptoms could indicate pseudogout, a type of arthritis. It's important to consult a rheumatologist for evaluation.",
+      "A healthcare provider can perform tests to confirm the diagnosis and recommend treatment options."
+    ]
+  },
+  {
+    "tag": "nephrotic_syndrome",
+    "patterns": [
+      "I have swelling in my legs, ankles, or around my eyes",
+      "I notice foamy urine or changes in urine output",
+      "I feel fatigued and have a loss of appetite",
+      "I have high blood pressure",
+      "I experience weight gain due to fluid retention"
+    ],
+    "responses": [
+      "These symptoms may suggest nephrotic syndrome. Consult a nephrologist for proper evaluation.",
+      "A healthcare provider can perform tests to assess kidney function and recommend treatment."
+    ]
+  },
+  {
+    "tag": "cervical_spondylosis",
+    "patterns": [
+      "I have neck pain that may radiate to my shoulders or arms",
+      "I feel stiffness in my neck, especially in the morning",
+      "I experience headaches that start at the back of my head",
+      "I notice tingling or numbness in my arms or hands",
+      "I have difficulty with balance or coordination"
+    ],
+    "responses": [
+      "These symptoms could indicate cervical spondylosis, a degenerative condition of the neck. Consult an orthopedic specialist for evaluation.",
+      "A healthcare provider can perform imaging tests to assess the condition and recommend treatment options."
+    ]
+  },
+  {
+    "tag": "chronic_tonsillitis",
+    "patterns": [
+      "I have frequent sore throats and difficulty swallowing",
+      "I notice swollen tonsils and bad breath",
+      "I experience fever and swollen lymph nodes",
+      "I have persistent throat pain that doesn't go away",
+      "I feel fatigued and have a loss of appetite"
+    ],
+    "responses": [
+      "These symptoms may suggest chronic tonsillitis. It's important to consult an ENT specialist for evaluation.",
+      "A healthcare provider can assess the need for treatment, which may include antibiotics or surgery."
+    ]
+  },
+  {
+    "tag": "chronic_migraine",
+    "patterns": [
+      "I have frequent headaches that last for days",
+      "I experience nausea and sensitivity to light",
+      "My headaches are often one-sided",
+      "I have visual disturbances before my headaches",
+      "I feel fatigued after a migraine attack"
+    ],
+    "responses": [
+      "These symptoms may indicate chronic migraine. Keeping a headache diary can help identify triggers.",
+      "Consult a neurologist for proper diagnosis and management options."
+    ]
+  },
+  {
+    "tag": "restless_leg_syndrome",
+    "patterns": [
+      "I have an uncontrollable urge to move my legs",
+      "I feel uncomfortable sensations in my legs at night",
+      "My legs feel restless when I sit or lie down",
+      "I have difficulty falling asleep due to leg discomfort",
+      "I often have to get up and walk around to relieve the feeling"
+    ],
+    "responses": [
+      "These symptoms suggest restless leg syndrome. Lifestyle changes and certain medications can help manage symptoms.",
+      "Consult a healthcare provider for evaluation and treatment options."
+    ]
+  },
+  {
+    "tag": "chronic_urinary_tract_infection",
+    "patterns": [
+      "I have frequent urges to urinate",
+      "I feel pain or burning when I urinate",
+      "I notice cloudy or strong-smelling urine",
+      "I have pelvic pain or pressure",
+      "I experience fatigue and fever"
+    ],
+    "responses": [
+      "These symptoms may indicate a chronic urinary tract infection. It's important to see a healthcare provider for diagnosis.",
+      "Antibiotics may be necessary to treat the infection."
+    ]
+  },
+  {
+    "tag": "hyperparathyroidism",
+    "patterns": [
+      "I have fatigue and weakness",
+      "I experience frequent kidney stones",
+      "I have bone pain or fractures",
+      "I feel nauseous and have a loss of appetite",
+      "I notice increased thirst and urination"
+    ],
+    "responses": [
+      "These symptoms could indicate hyperparathyroidism. A blood test can confirm elevated calcium levels.",
+      "Consult an endocrinologist for evaluation and treatment options."
+    ]
+  },
+  {
+    "tag": "chronic_pancreatitis",
+    "patterns": [
+      "I have persistent abdominal pain that worsens after eating",
+      "I experience nausea and vomiting",
+      "I have unexplained weight loss",
+      "I notice oily or fatty stools",
+      "I feel bloated and uncomfortable after meals"
+    ],
+    "responses": [
+      "These symptoms may suggest chronic pancreatitis. It's important to seek medical evaluation.",
+      "A gastroenterologist can provide a proper diagnosis and management plan."
+    ]
+  },
+  {
+    "tag": "hypopituitarism",
+    "patterns": [
+      "I feel fatigued and weak",
+      "I have unexplained weight gain or loss",
+      "I experience mood changes and depression",
+      "I have decreased libido and fertility issues",
+      "I notice changes in my skin and hair"
+    ],
+    "responses": [
+      "These symptoms could indicate hypopituitarism. A healthcare provider can perform hormone level tests.",
+      "Consult an endocrinologist for evaluation and treatment options."
+    ]
+  },
+  {
+    "tag": "chronic_fibrosis",
+    "patterns": [
+      "I have persistent cough and shortness of breath",
+      "I feel fatigued and have frequent lung infections",
+      "I notice a decline in my lung function over time",
+      "I have difficulty exercising due to breathing issues",
+      "I experience chest tightness"
+    ],
+    "responses": [
+      "These symptoms may suggest chronic fibrosis. It's important to seek medical evaluation.",
+      "A pulmonologist can provide a proper diagnosis and management plan."
+    ]
+  },
+  {
+    "tag": "pediatric_asthma",
+    "patterns": [
+      "My child has frequent coughing, especially at night",
+      "I notice wheezing when my child is active",
+      "My child has difficulty breathing during play",
+      "I see my child using their inhaler often",
+      "My child complains of chest tightness"
+    ],
+    "responses": [
+      "These symptoms may indicate pediatric asthma. It's important to consult a pediatrician for evaluation.",
+      "A healthcare provider can develop an asthma management plan tailored to your child's needs."
+    ]
+  }
+]

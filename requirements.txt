@@ -1,0 +1,5 @@
+nltk
+streamlit
+scikit-learn
+streamlit_modal
+streamlit_extras
