@@ -1,8 +1,11 @@
 Here's a README section for your project titled **Symptom Checker using NLP**:
 # Symptom Checker using NLP
-```
-https://symptom-checker-v1.streamlit.app/symp
-```
+
+## 🔗 Links
+[![Symptom_checker](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://symptom-checker-v1.streamlit.app/symp)
+
+
+
 ## Overview
 
 The **Symptom Checker** is an intelligent application designed to assist users in identifying potential health conditions based on their reported symptoms. Utilizing Natural Language Processing (NLP) techniques, this tool analyzes user input and matches it against a comprehensive dataset of symptoms and associated conditions. The goal is to provide users with informative responses and guidance on when to seek medical attention.
