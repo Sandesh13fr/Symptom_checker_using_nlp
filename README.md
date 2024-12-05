@@ -3,7 +3,7 @@ Here's a README section for your project titled **Symptom Checker using NLP**:
 
 ## 🔗 Links
 [![Symptom_checker](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://symptom-checker-v1.streamlit.app/symp)
-
+[![Symptom_checker](https://img.shields.io/badge/Click%20To%20visit-the%20site-red)](https://symptom-checker-v1.streamlit.app/symp)
 
 
 ## Overview
